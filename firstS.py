@@ -17,3 +17,4 @@ print(ans)
 
 print(type(fnum)) #fnum has not changed, a new obj. is created and that is used
 # type conversion doesn't chnages the orignal data, it creates a new value and uses
+# if u take input as int() then assign to fnum it remains int
