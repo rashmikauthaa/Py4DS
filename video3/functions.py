@@ -13,4 +13,25 @@ s='heLlo wOrlD'
 # print(s.lower()) # all char to lower case
 # print(s.swapcase()) # caps to low and visa versa
 
-'hello world'.find('j')
+# print(s.count('l'))
+# print(s.find('x')) # if pres then gives idx, otherwise -1
+# print(s.index('h'))
+
+# Gives boolen value
+# print(s.endswith('sho'))
+# print(s.startswith('he'))
+
+# format() is used for filling
+name='autha'
+age=19
+
+# print('Hi my name is {} and I am {} years old'.format(name,age))
+# print('Hi my name is {1} and I am {0} years old'.format(name,age)) #also perform postining
+
+
+print('autha211'.isalnum()) # isalnum() checks if string is alphanumeric??
+print('autha21%1'.isalnum()) # if string is numeric
+
+print('autha211'.isalpha()) # if string is alphabatic
+print('211'.isdigit()) # if string is numeric
+print('autha-211'.isidentifier()) # is string a valid identifier
