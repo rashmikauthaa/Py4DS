@@ -1,13 +1,24 @@
-rows=int(input('enter no. of rows: '))
+# remove a character from a string-
+# s=(input('enter the string: '))
+# term=(input('what would u like to remove: '))
 
-# for i in range(1,rows+1):
-#     for j in range(1,i+1):
-#         print('*',end='')
-#     print()     
+# res=''
+# for i in s:
+#     if i!=term:
+#         res+=i
 
-for i in range(1,rows+1):
-    for j in range(1,i+1):
-        print(j,end='')
-    for k in range(i-1,0,-1):
-        print(k,end='')    
-    print()    
+# print(res)
+
+
+
+# check if a string is palindrome or not
+# s=input('enter a string: ')
+# flag=True
+# for i in range(0,len(s)//2):
+#     if s[i]!=s[len(s)-i-1]:
+#         flag=False
+#         print('not a palindrome')
+#         break
+
+# if flag:
+#     print('Yea a palindrome')        
