@@ -21,4 +21,40 @@
 #         break
 
 # if flag:
-#     print('Yea a palindrome')        
+#     print('Yea a palindrome')  
+
+
+
+# count no. of words without split() fun
+# s=input('enter a string: ')
+# word=0
+# for i in s:
+#     if i==' ':
+#         word+=1
+
+# print(word)        
+
+
+
+# print words in a string
+# s=input('enter a string: ')
+# temp=''
+# list=[]
+# for i in s:
+#     if i!=' ':
+#         temp=temp+i
+#     else:
+#         list.append(temp)
+#         temp=''
+# list.append(temp)
+# print(list)        
+
+
+
+# convert a string title to upper case without title()
+# s=input('enter a string: ')
+# L=[]
+# for i in s.split():
+#     L.append(i[0].upper()+i[1:].lower())
+
+# print(" ".join(L))    

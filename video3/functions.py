@@ -8,7 +8,7 @@
 
 s='heLlo wOrlD'
 # print(s.capitalize()) # first char of string is capitalized
-# print(s.title()) # every word is capitalized
+# print(s.title()) # starting letter of every word is capitalized
 # print(s.upper()) # all char to upper case
 # print(s.lower()) # all char to lower case
 # print(s.swapcase()) # caps to low and visa versa
@@ -29,9 +29,9 @@ age=19
 # print('Hi my name is {1} and I am {0} years old'.format(name,age)) #also perform postining
 
 
-print('autha211'.isalnum()) # isalnum() checks if string is alphanumeric??
-print('autha21%1'.isalnum()) # if string is numeric
+# print('autha211'.isalnum()) # isalnum() checks if string is alphanumeric??
+# print('autha21%1'.isalnum()) # if string is numeric
 
-print('autha211'.isalpha()) # if string is alphabatic
-print('211'.isdigit()) # if string is numeric
-print('autha-211'.isidentifier()) # is string a valid identifier
+# print('autha211'.isalpha()) # if string is alphabatic
+# print('211'.isdigit()) # if string is numeric
+# print('autha-211'.isidentifier()) # is string a valid identifier
